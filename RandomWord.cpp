@@ -46,3 +46,11 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
+
+//Notes
+//std::vector is typically implemented as a dynamic array rather than a linked list.
+//A dynamic array is an array that can be resized during program execution, whereas a static array has a
+//fixed size that is determined at compile time. A std::vector is a dynamic array that can grow or shrink in size as elements are added or removed.
+//A dynamic array implementation typically uses a contiguous block of memory to store the elements of the array, which allows for efficient random 
+//access to elements using an index. This is in contrast to a linked list, which stores elements in separate nodes that are linked together using pointers. 
+//Random access to elements in a linked list is generally less efficient than with a dynamic array.
